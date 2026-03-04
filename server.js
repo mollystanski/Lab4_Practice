@@ -6,7 +6,7 @@ console.log("Server running on port", PORT);
 });
 
 app.get('/', (req, res) => {
-res.send('Hello there Molly Moo');
+res.send('Hello there Molly Moo Stanski');
 });
 
 app.get('/api/health', (req, res) => {
